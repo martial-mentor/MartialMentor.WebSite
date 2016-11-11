@@ -1,0 +1,15 @@
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+export class App extends React.Component {
+    render() {
+        return <h1>Martial mentor. ---</h1>;
+    }
+}
+
+
+ReactDOM.render(
+    <App />,
+    document.getElementById('app')
+) 
